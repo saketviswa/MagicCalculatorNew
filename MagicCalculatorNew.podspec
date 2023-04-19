@@ -9,34 +9,19 @@
 Pod::Spec.new do |s|
   s.name             = 'MagicCalculatorNew'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MagicCalculatorNew.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'This will do magical calculation'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/indodanawhitelabel/MagicCalculatorNew'
+  s.homepage         = 'https://github.com/saketviswa/MagicCalculatorNew'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'indodanawhitelabel' => 'saket.kumar@tokopedia.com' }
-  s.source           = { :git => 'https://github.com/indodanawhitelabel/MagicCalculatorNew.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.author           = { 'Saket Kumar' => 'saket.bishu2@gmail.com' }
+  s.source           = { :git => 'https://github.com/saketviswa/MagicCalculatorNew.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '13.0'
+  s.swift_versions = ['5']
 
   s.source_files = 'MagicCalculatorNew/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MagicCalculatorNew' => ['MagicCalculatorNew/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

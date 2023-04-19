@@ -1,0 +1,22 @@
+{
+  "name": "MagicCalculatorNew",
+  "version": "0.1.0",
+  "summary": "A short description of MagicCalculatorNew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/indodanawhitelabel/MagicCalculatorNew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "indodanawhitelabel": "saket.kumar@tokopedia.com"
+  },
+  "source": {
+    "git": "https://github.com/indodanawhitelabel/MagicCalculatorNew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MagicCalculatorNew/Classes/**/*"
+}

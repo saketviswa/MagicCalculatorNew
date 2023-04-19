@@ -1,0 +1,16 @@
+PODS:
+  - MagicCalculatorNew (0.1.0)
+
+DEPENDENCIES:
+  - MagicCalculatorNew (from `../`)
+
+EXTERNAL SOURCES:
+  MagicCalculatorNew:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MagicCalculatorNew: d1a3ae602bdad3834e444d495b9b7d4eb198f2a3
+
+PODFILE CHECKSUM: e337231810ba7769c426ee84ed39189ac02136b5
+
+COCOAPODS: 1.12.0
