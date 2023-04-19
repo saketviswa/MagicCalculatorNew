@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MagicCalculatorNew_Example' do
+  pod 'MagicCalculatorNew', :path => '../'
+
+  target 'MagicCalculatorNew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
